@@ -1,14 +1,10 @@
 [package]
-name = "quote"
-version = "0.3.15" # don't forget to update version in readme for breaking changes
+name = "futures-await-quote"
+version = "0.4.0"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
 license = "MIT/Apache-2.0"
-description = "Quasi-quoting macro quote!(...)"
-repository = "https://github.com/dtolnay/quote"
-documentation = "https://docs.rs/quote/"
-keywords = ["syn"]
-include = ["Cargo.toml", "src/**/*.rs", "tests/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
-publish = false # this branch contains breaking changes
+description = "Temporary fork of the `quote` crate for futures-await"
+repository = "https://github.com/alexcrichton/futures-await-quote"
 
 [dependencies]
 proc-macro2 = "0.1"
